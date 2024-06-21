@@ -11,7 +11,7 @@ Feature: Data Driven Test
     And user click the gift Cards
     Given the user is on the gift card page and selects Birthday gift
     And the user select the Email button
-    And enter the required details3 "<row_val>"
+    And enter the required details1 "<row_val>"
     Then check whether the emailID  is valid for recipient "<row_val>"
 
     Examples: 

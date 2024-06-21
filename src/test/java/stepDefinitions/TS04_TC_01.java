@@ -44,8 +44,9 @@ public class TS04_TC_01
        birthdayPage.buyNow();	
 	}
 
-	@Then("check whether the emailID is valid for recipient {string}")
+	@Then("check whether the emailID  is valid for recipient {string}")
 	public void check_whether_the_email_id_is_valid_for_recipient(String rows) {
+	
 	    datamap = DataReader.data(System.getProperty("user.dir") + "\\TestData\\ExcelData.xlsx", "Recipient_Email");
 	    int index=Integer.parseInt(rows)-1;
 	    
