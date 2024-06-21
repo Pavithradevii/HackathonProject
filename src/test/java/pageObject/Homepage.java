@@ -15,8 +15,7 @@ public class Homepage extends BasePage{
 	}
 	JavascriptExecutor j=(JavascriptExecutor)driver;
 	
-	@FindBy(xpath="//li[@class='menu_Flights']")
-	WebElement flight_button;
+
 	
 	@FindBy(xpath="//*[@class='close']")
 	WebElement ads_close; 
@@ -187,9 +186,6 @@ public class Homepage extends BasePage{
 		j.executeScript("arguments[0].click()", apply_button);
 	}
 	
-	public void flightButton()  {
-
-		flight_button.click();
-	}
+	
 }
 

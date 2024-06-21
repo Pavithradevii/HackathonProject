@@ -4,7 +4,7 @@ Feature: Data Driven Test
   Scenario Outline: To do the data driven test on gift card with valid and invalid mailId
     Given the user navigates to page
     Then user close the Ads
-    Then user close the login/signup
+    Then user close the login or sign up
     And user click the Cab icon
     And Click on Search button
     When the user clicks on more options
@@ -24,7 +24,7 @@ Feature: Data Driven Test
   Scenario Outline: To do the data driven test on gift cards with valid and invalid mobile number
 		Given the user navigates to page
     Then user close the Ads
-    Then user close the login/signup
+    Then user close the login or sign up
     And user click the Cab icon
     And Click on Search button
     When the user clicks on more options

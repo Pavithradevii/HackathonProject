@@ -33,8 +33,8 @@ public class TS01_TC_01 {
 	    
 	}
 	
-	@Then("user close the login\\/signup")
-	public void user_close_the_login_signup() {
+	@Then("user close the login or sign up")
+	public void user_close_the_login_or_sign_up() {
 	    try {
 	    	BaseClass.getLogger().info("User close the login or signup");
 	    	page1.loginClose();
